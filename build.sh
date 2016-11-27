@@ -1,3 +1,3 @@
 #!/bin/bash
 set -xe
-sudo docker build -t dhagberg/co811-javax .
+docker build -t dhagberg/co811-javax .
