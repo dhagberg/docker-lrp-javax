@@ -3,7 +3,7 @@ set -xe
 cd /root/build
 
 cd /root/build
-yum "--exclude=java-*-oracle*" -y install java-1.8.0-openjdk
+yum "--exclude=java-*-oracle*" -y install java-1.8.0-openjdk java-1.8.0-openjdk-devel
 yum -y clean all
 
 # output some status info
