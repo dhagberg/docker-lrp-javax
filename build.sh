@@ -1,6 +1,6 @@
 #!/bin/bash
 set -xe
-PLAIN_NAME=co811-javax
+PLAIN_NAME=lrp-javax
 HUB_NAME=dhagberg/$PLAIN_NAME
 SVN_NAME=svn.co811.org:5000/$PLAIN_NAME
 
